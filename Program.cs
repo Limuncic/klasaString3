@@ -22,7 +22,7 @@ namespace klasaString3
                 string sVelika = s1.ToUpper();
                 string sMala = s1.ToLower();
                 string sPrvaTri = s1.Substring(0, 3);
-                string sZadnjihPet = s1.Substring(s1.Length - (s1.Length - 5));
+                string sZadnjihPet = s1.Substring(s1.Length - 5);
                 string s8_11 = s1.Substring(8, 11);
 
                 Console.WriteLine(sVelika);
